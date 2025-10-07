@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>JavaScript JS DOM</h1>
+    </header>
+    <main id ="principal">
+
+    </main>
+    <script>
+        let suma,resta,multi,division;
+        suma= 10 +5;
+        resta= 10-5;
+        multi=10*5;
+        division=10/5;
+
+        //mostarar en pantalla
+        
+        //manejo del DOM 
+        let principal = document.getElementById("principal");
+        principal.innerHTML="<h2>Esto fue agregado con JS</h2>";
+        principal.innerHTML+="<p>Esto es un parrafo</p>";
+        principal.innerHTML+="<p>El resultado es :" + division+ " </p> " ;
+        principal.innerHTML+="<p>El resultado es :" + multi+ " </p> " ;
+        principal.innerHTML+="<p>El resultado es :" + suma+ " </p> " ;
+        principal.innerHTML+="<p>El resultado es :" + resta+ " </p> " ;
+    </script>
+</body>
+</html>
